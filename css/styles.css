@@ -217,7 +217,7 @@ button {
 
 .main-description-title {
   margin-bottom: 8px;
-  padding-top: 8px;
+  margin-top: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -390,16 +390,8 @@ button {
   display: flex;
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   align-items: center;
   justify-content: center;
-}
-
-.customer-list-item:hover,
-.customer-list-item:focus {
-  border: 1px solid #404bbf;
-  border-radius: 4px;
 }
 
 .customer-link-company {
@@ -408,13 +400,22 @@ button {
   height: 100%;
   align-items: center;
   justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
+
+.customer-link-company:hover ,
+.customer-link-company:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
+
 .customer-icon {
   fill: #8e8f99;
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
+.customer-link-company:hover .customer-icon,
+.customer-link-company:focus .customer-icon {
   fill: #404bbf;
 }
 
@@ -428,7 +429,7 @@ button {
 
 .footer > .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 120px;
 }
 
@@ -474,7 +475,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding-bottom: 36px;
+  /* padding-bottom: 36px; */
 }
 
 .footer-soc-item {
