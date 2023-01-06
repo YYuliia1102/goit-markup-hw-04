@@ -269,7 +269,6 @@ button {
 
 .fuction-title {
   margin-bottom: 72px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -292,7 +291,6 @@ button {
 }
 .team-title {
   margin-bottom: 72px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -357,12 +355,57 @@ button {
   border-radius: 50%;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #404bbf;
 }
 
 .team-soc-icon {
   fill: #f4f4fd;
+}
+
+/* ----------- CUSTOMER ---------- */
+
+.customer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.customer-list-company {
+  display: flex;
+  gap: 24px;
+}
+
+.customer-list-item {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.customer-link-company {
+  display: flex;
+  background-color: var(--main-text-color);
+  align-items: center;
+  justify-content: center;
+}
+.customer-icon {
+  /* display: flex; */
+  fill: #404bbf;
+  
 }
 
 /* ----------- FOOTER ---------- */
