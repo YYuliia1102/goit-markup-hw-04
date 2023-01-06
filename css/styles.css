@@ -494,7 +494,7 @@ button {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-  background: #31D0AA;
+  background: #31d0aa;
 }
 
 .footer-soc-icon {
@@ -583,4 +583,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+.gallery-card-link:hover,
+.gallery-card-link:focus {
+  /* outline: 0.5px solid #f4f4fd; */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
